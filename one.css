@@ -1,0 +1,121 @@
+{
+	margin:0;
+	padding: 0; 
+}
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 20px;
+
+}
+
+li:hover{
+	border-bottom: 1px solid rgb(105, 105, 105);
+}
+button {
+	height: 40px;
+	width: 150px;
+	border: none;
+	background-color: rgb(238, 238, 238);
+	font-size: 16px;
+	margin: 0 5px;
+	letter-spacing: 0.30px;
+	color: rgb(100, 100, 100);
+	outline: none;
+
+}
+
+button:hover{
+	border:1px solid rgb(173, 173, 173);
+	color: black;
+}
+
+#google-input:hover {
+	box-shadow: 0px 2px 3px grey;
+}
+#nav {
+	margin-top: 20px;
+	margin-left: 24px;
+}
+
+#nav-right-side{
+	display: inline-block;
+	position: fixed;
+	/* position fixed allow us to move an element
+		all ovet the when also using top,left,bottom,right
+	*/
+	right: 40px;
+}
+
+
+#blue-m {
+	
+	height: 26px;
+	width: 26px;
+	font-size: 15px;
+	color: white;
+	background-color: blue;
+	border-radius: 50%;
+	margin-right: 3px;
+	padding-left: 7px;
+	padding-top: 1px;
+	padding-bottom: 4px;
+	border:none;
+}
+#google-h1{
+	font-size: 80px; 
+}
+#main-google {
+	text-align: center; 
+	position: relative;
+	top: 70px;
+}
+
+#google-input{
+	height: 41px;
+	width: 550px;
+	border: 1px solid lightgrey;
+	border-radius: 20px;
+	padding-left: 15px;
+	font-size: 20px;
+	position: relative;
+	top: 30px;
+
+}
+#button-container{
+	position: relative;
+	top: 65px;
+
+}
+#footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: rgb(238, 238, 238);
+	width: 100%;
+}
+
+#footer-right-side {
+	position: fixed;
+	right: 26px;
+	display: inline-block;
+}
+#ul-footer{
+	margin-left: 30px;
+	margin-bottom: 14px;
+	color: rgb(87, 87, 87);
+	padding-top: 15px;
+}
+.separate-new-items{
+	margin-left: 16px;
+}
+
+.separate-footer-items{
+margin-left: 22px;
+}
+.google-letters{
+	margin-left: -24px;
+}
